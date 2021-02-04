@@ -9,12 +9,15 @@ int main()
     int N;
     cin >> N;
     for (int i = N; i > 0; i = i - 2) {
+        //Spaces
         for (int j = 1; j <= (N - i) / 2; j++) {
             cout << ' ';
         }
+        //Stars
         for (int j = 1; j <= i; j++) {
             cout << '*';
         }
+        //Spaces
         for (int j = 1; j <= (N - i) / 2; j++) {
             cout << ' ';
         }
