@@ -17,10 +17,6 @@ int main()
         for (int j = 1; j <= i; j++) {
             cout << '*';
         }
-        //Spaces
-        for (int j = 1; j <= (N - i) / 2; j++) {
-            cout << ' ';
-        }
         cout << endl;
     }
     return 0;
